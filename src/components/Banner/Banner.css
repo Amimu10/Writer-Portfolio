@@ -1,0 +1,23 @@
+
+/* Override the next and previous buttons */
+.custom-carousel .control-next.control-arrow,
+.custom-carousel .control-prev.control-arrow {
+  background-color: #1E3A8A; /* Change this to the desired color */
+  color: black;
+  border-radius: 50%;
+  padding: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect */
+.custom-carousel .control-next.control-arrow:hover,
+.custom-carousel .control-prev.control-arrow:hover {
+  background-color: #F97316; /* Change hover color */
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Adjust the size of the buttons */
+.custom-carousel .control-next.control-arrow:before,
+.custom-carousel .control-prev.control-arrow:before {
+  font-size: 24px; /* Adjust size */
+}
